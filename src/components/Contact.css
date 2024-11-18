@@ -1,0 +1,65 @@
+/* src/components/Contact.css */
+.contact {
+    padding: 100px 0;
+   }
+   
+   .contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+   }
+   
+   .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+   }
+   
+   .form-group {
+    margin-bottom: 20px;
+   }
+   
+   .form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+   }
+   
+   .form-group input,
+   .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+   }
+   
+   .form-group textarea {
+    height: 150px;
+   }
+   
+   button[type='submit'] {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   
+   .social-links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   }
+   
+   .social-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+   }
+   
+   .social-icon:hover {
+    transform: scale(1.1);
+   }

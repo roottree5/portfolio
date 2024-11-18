@@ -1,0 +1,112 @@
+.projects {
+  padding: 100px 0;
+}
+
+.projects h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.projects .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+  padding: 0 20px;
+}
+
+.projects .project-card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: fit-content;
+}
+
+.projects .project-card:hover {
+  transform: translateY(-5px);
+}
+
+.projects .image-container {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+
+.projects .project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  padding: 10px;
+}
+
+.projects .project-details {
+  padding: 20px;
+  position: relative;
+}
+
+.projects .project-details h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.projects .project-details p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.projects .expand-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  color: #666666;
+  transition: color 0.3s ease;
+}
+
+.projects .expand-button:hover {
+  color: #000000;
+}
+
+.projects .project-expanded {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  line-height: 1.6;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.projects .project-expanded h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.projects .tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;  
+}
+
+.projects .tech-item {
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 4px 8px;
+  font-size: 14px;
+  color: #444;
+  text-align: center;
+}
+
+.projects .project-expanded p {
+  margin-top: 10px;
+  white-space: pre-line;
+}
