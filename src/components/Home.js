@@ -3,7 +3,7 @@ import React from 'react';
 import './Home.css';
 import FlutterIcon from '../assets/flutter.svg';
 import RobotIcon from '../assets/robot.svg'; 
-import profileImage from '../assets/profile-photo.jpeg';
+import profileImage from '../assets/profile.jpeg';
 
 const Home = () => {
  return (
@@ -15,8 +15,8 @@ const Home = () => {
          </div>
          <div className="info-section">
            <div className="text-content">
-             <h1>HI, I'm Rroot</h1>
-             <p>Flutter와 AI에 대해 공부하고 있어요.</p>
+             <h1>Kim yeon woo</h1>
+             <p>안녕하세요, 생각의 깊이가 코드의 품질을 결정합니다. 깊이 있는 사고를 가진 개발자 김연우입니다.</p>
            </div>
            <div className="tech-icons">
              <img src={FlutterIcon} alt="Flutter" className="tech-icon" />
